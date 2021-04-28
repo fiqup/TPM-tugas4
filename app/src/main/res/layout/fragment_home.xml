@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_home">
+
+   <TextView
+       android:id="@+id/tv1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Apa itu Shareit?"
+       android:textSize="16pt"
+       android:textAlignment="center"
+       android:layout_marginTop="40dp"
+      />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/tv1"
+       android:text="
+Shareit merupakan aplikasi yang digunakan untuk mengirim foto, vidoe, audio, dokumen, dan bahkan aplikasi antara smartphone ke smartphone maupun smartphone ke laptop atau komputer dan sebaliknya.
+Shareit merupakan aplikasi untuk mengirimkan video yang berkapasitas sangat besar. Kecepatannya pun dinilai mencapai 40% dari kecepatan yang dimiliki oleh bluetooth.
+Shareit juga bisa digunakan untuk mengirimkan file secara grup. Aplikasi ini sudah menyediakan fitur grup yang maksimal menampung 5 perangkat tanpa harus terhubung kabel alias nirkabel. Jadi, ketika Anda mengirimkan file ke mereka, maka keempat teman Anda pun juga bisa langsung menerima file tersebut tanpa harus menunggu terlalu lama atau harus antri.
+Shareit bergua untuk mengirimkan file dari smartphone yang memiliki beda sistem operasi. Jadi, Anda yang menggunakan android bisa mengirimkan file ke iOS dan sebaliknya. Bahkan bisa mengirimkan ke komputer yang menggunakan sistem operasi Windows."
+       android:textAlignment="center"
+       android:textSize="17dp"
+       android:layout_marginTop="20dp"
+       android:layout_marginHorizontal="10dp"
+       />
+
+</RelativeLayout>
